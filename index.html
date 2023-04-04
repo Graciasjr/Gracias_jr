@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <script src="./app.js" defer></script>
+    <title>Gracias_Jr/Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <span> Gracias_Jr</span>
+        </div>  
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#works">Works</a>
+        </div>
+        
+        <div class="theme">
+            <button class="theme-btn">
+                <i class="bi bi-moon-stars-fill"></i>
+            </button>
+            <span>Default</span>
+        </div>
+
+    </nav>
+    <div class="openTWork">
+        Open to Work 👨🏿‍💻
+    </div>
+    <main>
+        <div class="page home" id="home">
+            <div class="content">
+                <div class="my-picture">
+                    <img src="./Image/IDENTITE.jpg" alt="">
+                </div>
+                <h1 class="my-name"><em>Gracias_Jr</em></h1>
+                <div class="my-job">
+                    Dev Frontend Junior 👨🏿‍💻
+                </div>
+                <a href="#about" class="btn">About me</a>
+            </div>
+        </div>
+        <div class="page about" id="about">
+            <span class="title">ABOUT ME</span>                
+            <div class="left-panel" id="lp">
+                <img src="./Image/illustration/4.avif" alt="">
+                <div class="my-skills">
+                    <h4>MY SKILLS</h4>
+                    <div class="skill html">
+                        <span class="skill-title">HTML</span>
+                        <div class="skill-range">
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill css">
+                        <span class="skill-title">CSS</span>
+                        <div class="skill-range">
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skill js">
+                        <span class="skill-title">Javascript</span>
+                        <div class="skill-range">
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skill SvKit">
+                        <span class="skill-title">SvelteKit</span>
+                        <div class="skill-range">
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill pb">
+                        <span class="skill-title">PocketBase</span>
+                        <div class="skill-range">
+                            <span class="skill-percentage">50%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-panel" id="rp">
+                <div class="present-me">
+                    Hello ! <br>
+                    Je m'appelle DAGA Elvic Gracias Junior. Je suis développeur front-end Junior et passionné par les technos du Web.
+                    Avec mon d'expérience ,Je t'aide à mettre en place ta mise en page Web, je fais l'intégration de tes prototypes les plus fous 🤣 afin de faire
+                    de tes projets Web une réussite 🥳. <br>
+                    J'apprends au fur et à mesure des projets et j'apprends pour toujours ! <br>
+                    Bref 😪, <br>
+                    Je suis la personne qu'il te faut pour la mise en place Frontale de tes WebProjects.
+
+                </div>
+                <div class="join-me">
+                    <div class="join-lbl">
+                        <h6>Name</h6>
+                        <span class="lbl">Gracias DAGA</span>
+                    </div>
+                    <div class="join-lbl">
+                        <h6>Age</h6>
+                        <span class="lbl">20</span>
+                    </div>
+                    <div class="join-lbl">
+                        <h6>Adress</h6>
+                        <span class="lbl">Godomey-Dekoungbé</span>
+                    </div>
+                    <div class="join-lbl">
+                        <h6>Email</h6>
+                        <span class="lbl">graciasdagadgc@gmail.com</span>
+                    </div>
+                    <div class="join-lbl">
+                        <h6>Phone</h6>
+                        <span class="lbl">(+229) 99 06 97 97</span>
+                    </div>
+                    <div class="join-lbl">
+                        <h6>Twitter</h6>
+                        <span class="lbl">@gracias_jr</span>
+                    </div>
+                </div>
+                <div class="about-footer">
+                    <a href="#" class="btn service-btn">Download CV</a>
+                    <a href="#services" class="btn ">My Services</a>
+                </div>
+            </div>
+            <div class="scroll-x" id="scroll-x">
+                <span class="scale" id="scroll1">1</span>
+                <span id="scroll2">2</span>
+            </div>
+            <div class="scroll-cta">
+            </div>
+        </div>
+        <div class="page services" id="services">
+            <span class="title">MY SERVICES</span>
+            <div class="services-container">
+                <button id="scroll-left" onclick="ServiceScroller(1)">
+                    <i class="bi bi-caret-left"></i>
+                </button>
+                <button id="scroll-right" onclick="ServiceScroller(-1)">
+                    <i class="bi bi-caret-right"></i>
+                </button>
+                <div class="service-list sl">
+                    <div class="service">
+                        <img src="./Image/illustration/1.avif" alt="">
+                        <h3 class="service-title">Web Integrations</h3>
+                        <span class="service-description">
+                            Je fais <strong>l'Intégrations</strong> de tes prototypes les plus fous 😎!                           
+                        </span>
+                    </div>
+                    <div class="service">
+                        <img src="./Image/illustration/3.avif" alt="">
+                        <h3 class="service-title">User Interfaces</h3>
+                        <span class="service-description">
+                            Laisse moi contribuer à la mise en place de ton <strong>UI Design</strong>🧩🛠.
+                        </span>
+                    </div>
+                    <div class="service">
+                        <img src="./Image/illustration/2.avif" alt="">
+                        <h3 class="service-title">Front-end developpements</h3>
+                        <span class="service-description">
+                            L'alliage de mes compétences dev <strong>Front me permet de contribuer à ton Projet de 🅰 à Z </strong>.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page works" id="works">
+            <h3 class="title work-title">MY WORK</h3>
+            <div class="work-container">
+                <a class="work" name="work" href="https://kev-pi.vercel.app" target="_blank">
+                    <iframe src="https://kev-pi.vercel.app"  frameborder="0px"></iframe>
+                    <div class="work-descript">
+                        <span>01.</span>
+                        <span>KEV</span>
+                    </div>
+                </a>                              
+            </div>            
+        </div>        
+    </main>
+    
+</body>    
+</html>

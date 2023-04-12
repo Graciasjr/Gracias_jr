@@ -497,10 +497,9 @@ main{
     width: auto;
     height: auto;
     margin-top:47px;
-    bottom:17%;
-    left:5%;
     display: flex;
     gap: 10px;
+    /* border: 1px solid; */
 
  }
 
@@ -827,15 +826,16 @@ a .work-descript{
 
     .left-panel img{
         width:210px;
-        height:430px;
-        top:15%;
-        left:15%;
+        height:420px;
+        top:17%;
+        left:20%;
     }
     
     .my-skills{
-        width:230px;
-        left:/*57%*/50%;
-        top:47%;
+        width:235px;
+        /* left:57%70%; */
+        /* right:-100%; */
+        top:40%;
         padding:30px 10px 20px 10px;
     }
 
@@ -867,11 +867,16 @@ a .work-descript{
         width: 100%;
     }
 
-    .right-panel{      
+    .right-panel{  
         right: -97%;
-        padding: 5% 3% 5% 3%;
+        padding: 15% 3% 15% 3%;
+        gap: 0;
 
         
+    }
+
+    .about-footer{
+        margin-top: 2%;
     }
     .scroll-cta::after{
         

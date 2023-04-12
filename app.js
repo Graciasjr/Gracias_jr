@@ -15,7 +15,7 @@ const serviceList = document.querySelector('.service-list');
 
 let currentScrollPosition = 0;
 let scrollAmount = 310;
-let maxScroll =  serviceContainer.offsetWidth - serviceList.offsetWidth  ;
+let maxScroll =  document.querySelector('.services-container').offsetWidth - document.querySelector('.service-list').offsetWidth  ;
      
 const ServiceScroller = (value) =>{    
     currentScrollPosition = currentScrollPosition + (value*scrollAmount);    
@@ -29,7 +29,6 @@ const ServiceScroller = (value) =>{
     console.log(currentScrollPosition);
     serviceList.style.left = currentScrollPosition+"px";  
 }
-
 
 
 const AboutScaleToogle = ()=>{

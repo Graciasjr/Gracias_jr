@@ -334,6 +334,7 @@ main{
 /*  *ABOUT ME PAGE STYLE */
 
 .about{
+    /* border: 1px solid; */
     width: 100%;
     display: flex;
     padding: 25px;
@@ -350,6 +351,7 @@ main{
 
  .left-panel,
  .right-panel{
+    /* border: 1px solid crimson; */
     position:absolute;
     width: 50%;
     height: 100%;
@@ -500,6 +502,10 @@ main{
     display: flex;
     gap: 10px;
 
+ }
+
+ .service-btn{
+    cursor: no-drop;
  }
 
 .scroll-x{
@@ -822,22 +828,23 @@ a .work-descript{
     .left-panel img{
         width: 270px;
         height:490px;
-        top:25%;
-        left:20%;
+        top:15%;
+        left:7%;
     }
     
     .my-skills{
         width:290px;
         left:/*57%*/47%;
-        top:57%;
+        top:50%;
         padding:30px 10px 20px 10px;
     }
 
     .present-me{
         width:100%;
-        margin-top: 12%;
+        margin-top:0%;
         padding: 17px 0;
-        font-size: 20px;
+        font-size:15px;
+        /* border: 1px solid; */
     }
 
     .lbl{
@@ -857,12 +864,13 @@ a .work-descript{
 
     .left-panel,
     .right-panel{
-        width: 93%;
+        width: 100%;
     }
 
-    .right-panel{
-        padding-bottom:10px;
+    .right-panel{      
         right: -97%;
+        padding: 5% 3% 5% 3%;
+        
     }
     .scroll-cta::after{
         
